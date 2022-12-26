@@ -1,0 +1,38 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    padding:0;
+    margin:0;
+    border:0
+}
+header{
+    background:-webkit-linear-gradient(left, #5d33f4, #51a2ff);
+}
+#header-logo{
+    width:64px;
+    height:64px;
+}
+#header-msg{
+    font-size: 25px;
+    color: white;
+}
+#btnOne{
+    background: -webkit-linear-gradient(left, #5d33f4, #51a2ff);
+    color:white;
+}
+#btnOne:focus,#btnOne:hover{
+    box-shadow: none;
+    outline:none;
+}
+
+#tableHead{
+    background: -webkit-linear-gradient(left, #5d33f4, #51a2ff);
+}
+#searchInput{
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    border-bottom: 1px solid #ced4da;
+}
+#searchInput:hover,#searchInput:focus{
+    box-shadow: none;
+    outline:none;
+}
